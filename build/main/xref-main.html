@@ -15,7 +15,7 @@
 
 <div class="node">
   <a name="main.py"></a>
-  <a target="code" href="///C:/Users/shinh/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/2024-2%282-2%29/SWCON211/SWCON211%20-%20Practice/Project%20%232/main.py" type="text/plain"><tt>main.py</tt></a>
+  <a target="code" href="///C:/Users/shinh/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/2024-2%282-2%29/SWCON211/SWCON211%20-%20Practice/Project%20%233/main.py" type="text/plain"><tt>main.py</tt></a>
 <span class="moduletype">Script</span>  <div class="import">
 imports:
     <a href="#_collections_abc">_collections_abc</a>
@@ -24,7 +24,9 @@ imports:
  &#8226;   <a href="#codecs">codecs</a>
  &#8226;   <a href="#collections">collections</a>
  &#8226;   <a href="#collections.abc">collections.abc</a>
+ &#8226;   <a href="#components.body">components.body</a>
  &#8226;   <a href="#components.scene">components.scene</a>
+ &#8226;   <a href="#components.variables">components.variables</a>
  &#8226;   <a href="#copyreg">copyreg</a>
  &#8226;   <a href="#encodings">encodings</a>
  &#8226;   <a href="#encodings.aliases">encodings.aliases</a>
@@ -161,14 +163,12 @@ imports:
  &#8226;   <a href="#operator">operator</a>
  &#8226;   <a href="#os">os</a>
  &#8226;   <a href="#posixpath">posixpath</a>
- &#8226;   <a href="#practice_code.body">practice_code.body</a>
  &#8226;   <a href="#pygame">pygame</a>
  &#8226;   <a href="#pyi_rth_inspect.py">pyi_rth_inspect.py</a>
  &#8226;   <a href="#pyi_rth_multiprocessing.py">pyi_rth_multiprocessing.py</a>
  &#8226;   <a href="#pyi_rth_pkgres.py">pyi_rth_pkgres.py</a>
  &#8226;   <a href="#pyi_rth_pkgutil.py">pyi_rth_pkgutil.py</a>
  &#8226;   <a href="#pyi_rth_setuptools.py">pyi_rth_setuptools.py</a>
- &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#re">re</a>
  &#8226;   <a href="#re._casefix">re._casefix</a>
  &#8226;   <a href="#re._compiler">re._compiler</a>
@@ -10009,7 +10009,10 @@ imported by:
   <a target="code" href="-" type="text/plain"><tt>components</tt></a>
 <span class="moduletype">NamespacePackage</span>  <div class="import">
 imported by:
-    <a href="#components.scene">components.scene</a>
+    <a href="#components.body">components.body</a>
+ &#8226;   <a href="#components.collision">components.collision</a>
+ &#8226;   <a href="#components.scene">components.scene</a>
+ &#8226;   <a href="#components.variables">components.variables</a>
  &#8226;   <a href="#components.vector">components.vector</a>
 
   </div>
@@ -10017,13 +10020,67 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="components.scene"></a>
-  <a target="code" href="///C:/Users/shinh/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/2024-2%282-2%29/SWCON211/SWCON211%20-%20Practice/Project%20%232/components/scene.py" type="text/plain"><tt>components.scene</tt></a>
+  <a name="components.body"></a>
+  <a target="code" href="///C:/Users/shinh/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/2024-2%282-2%29/SWCON211/SWCON211%20-%20Practice/Project%20%233/components/body.py" type="text/plain"><tt>components.body</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#components">components</a>
- &#8226;   <a href="#practice_code.body">practice_code.body</a>
- &#8226;   <a href="#practice_code.collision">practice_code.collision</a>
+ &#8226;   <a href="#components.vector">components.vector</a>
+ &#8226;   <a href="#math">math</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#components.collision">components.collision</a>
+ &#8226;   <a href="#components.scene">components.scene</a>
+ &#8226;   <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="components.collision"></a>
+  <a target="code" href="///C:/Users/shinh/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/2024-2%282-2%29/SWCON211/SWCON211%20-%20Practice/Project%20%233/components/collision.py" type="text/plain"><tt>components.collision</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#components">components</a>
+ &#8226;   <a href="#components.body">components.body</a>
+ &#8226;   <a href="#components.vector">components.vector</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#components.scene">components.scene</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="components.scene"></a>
+  <a target="code" href="///C:/Users/shinh/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/2024-2%282-2%29/SWCON211/SWCON211%20-%20Practice/Project%20%233/components/scene.py" type="text/plain"><tt>components.scene</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#components">components</a>
+ &#8226;   <a href="#components.body">components.body</a>
+ &#8226;   <a href="#components.collision">components.collision</a>
+
+  </div>
+  <div class="import">
+imported by:
+    <a href="#main.py">main.py</a>
+
+  </div>
+
+</div>
+
+<div class="node">
+  <a name="components.variables"></a>
+  <a target="code" href="///C:/Users/shinh/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/2024-2%282-2%29/SWCON211/SWCON211%20-%20Practice/Project%20%233/components/variables.py" type="text/plain"><tt>components.variables</tt></a>
+<span class="moduletype">SourceModule</span>  <div class="import">
+imports:
+    <a href="#components">components</a>
 
   </div>
   <div class="import">
@@ -10036,7 +10093,7 @@ imported by:
 
 <div class="node">
   <a name="components.vector"></a>
-  <a target="code" href="///C:/Users/shinh/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/2024-2%282-2%29/SWCON211/SWCON211%20-%20Practice/Project%20%232/components/vector.py" type="text/plain"><tt>components.vector</tt></a>
+  <a target="code" href="///C:/Users/shinh/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/2024-2%282-2%29/SWCON211/SWCON211%20-%20Practice/Project%20%233/components/vector.py" type="text/plain"><tt>components.vector</tt></a>
 <span class="moduletype">SourceModule</span>  <div class="import">
 imports:
     <a href="#components">components</a>
@@ -10045,8 +10102,8 @@ imports:
   </div>
   <div class="import">
 imported by:
-    <a href="#practice_code.body">practice_code.body</a>
- &#8226;   <a href="#practice_code.collision">practice_code.collision</a>
+    <a href="#components.body">components.body</a>
+ &#8226;   <a href="#components.collision">components.collision</a>
 
   </div>
 
@@ -15897,6 +15954,7 @@ imported by:
     <a href="#_pydatetime">_pydatetime</a>
  &#8226;   <a href="#_pydecimal">_pydecimal</a>
  &#8226;   <a href="#asyncio.windows_events">asyncio.windows_events</a>
+ &#8226;   <a href="#components.body">components.body</a>
  &#8226;   <a href="#components.vector">components.vector</a>
  &#8226;   <a href="#fractions">fractions</a>
  &#8226;   <a href="#main.py">main.py</a>
@@ -15906,7 +15964,6 @@ imported by:
  &#8226;   <a href="#numpy.f2py.symbolic">numpy.f2py.symbolic</a>
  &#8226;   <a href="#numpy.lib">numpy.lib</a>
  &#8226;   <a href="#numpy.lib._index_tricks_impl">numpy.lib._index_tricks_impl</a>
- &#8226;   <a href="#practice_code.body">practice_code.body</a>
  &#8226;   <a href="#random">random</a>
  &#8226;   <a href="#selectors">selectors</a>
  &#8226;   <a href="#setuptools._vendor.more_itertools.more">setuptools._vendor.more_itertools.more</a>
@@ -24690,56 +24747,6 @@ imported by:
 </div>
 
 <div class="node">
-  <a name="practice_code"></a>
-  <a target="code" href="-" type="text/plain"><tt>practice_code</tt></a>
-<span class="moduletype">NamespacePackage</span>  <div class="import">
-imported by:
-    <a href="#practice_code.body">practice_code.body</a>
- &#8226;   <a href="#practice_code.collision">practice_code.collision</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="practice_code.body"></a>
-  <a target="code" href="///C:/Users/shinh/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/2024-2%282-2%29/SWCON211/SWCON211%20-%20Practice/Project%20%232/practice_code/body.py" type="text/plain"><tt>practice_code.body</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#components.vector">components.vector</a>
- &#8226;   <a href="#math">math</a>
- &#8226;   <a href="#practice_code">practice_code</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#components.scene">components.scene</a>
- &#8226;   <a href="#main.py">main.py</a>
- &#8226;   <a href="#practice_code.collision">practice_code.collision</a>
-
-  </div>
-
-</div>
-
-<div class="node">
-  <a name="practice_code.collision"></a>
-  <a target="code" href="///C:/Users/shinh/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/2024-2%282-2%29/SWCON211/SWCON211%20-%20Practice/Project%20%232/practice_code/collision.py" type="text/plain"><tt>practice_code.collision</tt></a>
-<span class="moduletype">SourceModule</span>  <div class="import">
-imports:
-    <a href="#components.vector">components.vector</a>
- &#8226;   <a href="#practice_code">practice_code</a>
- &#8226;   <a href="#practice_code.body">practice_code.body</a>
-
-  </div>
-  <div class="import">
-imported by:
-    <a href="#components.scene">components.scene</a>
-
-  </div>
-
-</div>
-
-<div class="node">
   <a name="psutil"></a>
   <a target="code" href="///C:/Users/shinh/AppData/Roaming/Python/Python312/site-packages/psutil/__init__.py" type="text/plain"><tt>psutil</tt></a>
 <span class="moduletype">Package</span>  <div class="import">
@@ -25873,7 +25880,6 @@ imports:
 imported by:
     <a href="#email.generator">email.generator</a>
  &#8226;   <a href="#email.utils">email.utils</a>
- &#8226;   <a href="#main.py">main.py</a>
  &#8226;   <a href="#secrets">secrets</a>
  &#8226;   <a href="#setuptools._vendor.more_itertools.more">setuptools._vendor.more_itertools.more</a>
  &#8226;   <a href="#setuptools._vendor.more_itertools.recipes">setuptools._vendor.more_itertools.recipes</a>

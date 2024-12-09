@@ -1,5 +1,5 @@
 ('C:\\Users\\shinh\\OneDrive\\바탕 화면\\2024-2(2-2)\\SWCON211\\SWCON211 - '
- 'Practice\\Project #2\\build\\main\\PYZ-00.pyz',
+ 'Practice\\Project #3\\build\\main\\PYZ-00.pyz',
  [('OpenGL',
    'C:\\Users\\shinh\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\OpenGL\\__init__.py',
    'PYMODULE'),
@@ -787,13 +787,25 @@
    'C:\\Users\\shinh\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\codeop.py',
    'PYMODULE'),
   ('components', '-', 'PYMODULE'),
+  ('components.body',
+   'C:\\Users\\shinh\\OneDrive\\바탕 화면\\2024-2(2-2)\\SWCON211\\SWCON211 - '
+   'Practice\\Project #3\\components\\body.py',
+   'PYMODULE'),
+  ('components.collision',
+   'C:\\Users\\shinh\\OneDrive\\바탕 화면\\2024-2(2-2)\\SWCON211\\SWCON211 - '
+   'Practice\\Project #3\\components\\collision.py',
+   'PYMODULE'),
   ('components.scene',
    'C:\\Users\\shinh\\OneDrive\\바탕 화면\\2024-2(2-2)\\SWCON211\\SWCON211 - '
-   'Practice\\Project #2\\components\\scene.py',
+   'Practice\\Project #3\\components\\scene.py',
+   'PYMODULE'),
+  ('components.variables',
+   'C:\\Users\\shinh\\OneDrive\\바탕 화면\\2024-2(2-2)\\SWCON211\\SWCON211 - '
+   'Practice\\Project #3\\components\\variables.py',
    'PYMODULE'),
   ('components.vector',
    'C:\\Users\\shinh\\OneDrive\\바탕 화면\\2024-2(2-2)\\SWCON211\\SWCON211 - '
-   'Practice\\Project #2\\components\\vector.py',
+   'Practice\\Project #3\\components\\vector.py',
    'PYMODULE'),
   ('concurrent',
    'C:\\Users\\shinh\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\concurrent\\__init__.py',
@@ -1653,15 +1665,6 @@
    'PYMODULE'),
   ('pprint',
    'C:\\Users\\shinh\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\pprint.py',
-   'PYMODULE'),
-  ('practice_code', '-', 'PYMODULE'),
-  ('practice_code.body',
-   'C:\\Users\\shinh\\OneDrive\\바탕 화면\\2024-2(2-2)\\SWCON211\\SWCON211 - '
-   'Practice\\Project #2\\practice_code\\body.py',
-   'PYMODULE'),
-  ('practice_code.collision',
-   'C:\\Users\\shinh\\OneDrive\\바탕 화면\\2024-2(2-2)\\SWCON211\\SWCON211 - '
-   'Practice\\Project #2\\practice_code\\collision.py',
    'PYMODULE'),
   ('psutil',
    'C:\\Users\\shinh\\AppData\\Roaming\\Python\\Python312\\site-packages\\psutil\\__init__.py',
